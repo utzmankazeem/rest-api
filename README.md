@@ -1,15 +1,26 @@
-# rest-api
+# restfull-api
 
-#A blog post app
+# A blog post app
 
-#biult to consume api of a post/content application. 
+biult to consume api of a post/content frontend application. 
 
-#tested with postman to pass values, and works fine.
+# Usage with Postman
 
-#App can consume different frontends and works fine. 
+tested with postman to pass values, and app works fine.
+App can consume different frontends and works fine. 
 
-#built on nodejs and javascript.
+# Engines
 
-#tested and working with postman.
+built on nodejs and javascript.
 
-#API #Postman #Nodejs #Ejs #Javascript
+# npm install
+run npm install to install all dependencies
+
+# npm start
+npm start to run app
+
+# API 
+# Postman 
+# Nodejs 
+# Ejs 
+# Javascript

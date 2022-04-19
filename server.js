@@ -3,7 +3,7 @@ const express = require("express");
         mongoose = require("mongoose");
         ejs = require("ejs");
 
-const PORT = 2010;
+const PORT = process.env.PORT;
 const log = console.log;
 
 const app = express();
@@ -119,4 +119,4 @@ app.route("/articles/:articleTitle")
     });
 });
 
-app.listen(PORT, () => log("server started on port 2010"))
+app.listen(PORT || 2010, () => log("server started on port 2010"))
